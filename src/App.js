@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
+import SwipeableViews from 'react-swipeable-views';
 import './App.css';
+import Icon from './components/Icon';
+import Balls from './components/Balls';
+import Screens from './components/Screens';
+import Window from './components/Window';
+import HomeButtons from './components/HomeButtons';
+import HomeRow from './components/HomeRow';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="phone">
+      <Window />
+      <Screens />
+      <Balls />
+      <HomeRow />
+      <HomeButtons />
     </div>
   );
 }
