@@ -9,6 +9,7 @@ import HomeButtons from './components/HomeButtons';
 import HomeRow from './components/HomeRow';
 
 function App() {
+
   return (
     <div className="phone">
       <Window />

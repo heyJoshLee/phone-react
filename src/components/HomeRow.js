@@ -6,7 +6,7 @@ import {Home, ArrowBack} from '@material-ui/icons/'
 const HomeRow = () => {
   return (
     <div className="home-row">
-      <Icon > <Home /></ Icon>
+      <Icon ></ Icon>
       <Icon />
       <Icon />
       <Icon />
