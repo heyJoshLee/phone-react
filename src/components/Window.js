@@ -25,8 +25,12 @@ class Window extends React.Component {
     <div className="window-body"> 
     <div className="icon red">{this.props.project.iconLetter} </div>
       <p>{this.props.project.description}</p>
-      <button className="btn large">Live Code</button> <br />
-      <button className="btn large margin-top">Github</button>
+      <a target="_blank" href={this.props.project.githubLink}>
+        <button className="btn large">Live Code</button> <br />
+      </a>
+      <a target="_blank" href={this.props.project.liveLink}>
+        <button className="btn large margin-top">Github</button>
+      </a>
     </div>
 
 

@@ -31,7 +31,7 @@
   background: rgb(2,0,36);
   background: linear-gradient(3deg, rgba(2,0,36,1) 0%, rgba(121,9,107,1) 35%, rgba(27,104,120,1) 100%);
   background-size: 400% 400%;
-  animation: bgAnimation 10s ease infinite;
+  animation: bgAnimation 13s ease infinite;
   text-align: center;
   display: flex;
 
@@ -88,7 +88,7 @@ body, #root {
     background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 100% 10%;
   }
   100% {
 		background-position: 0% 50%;
